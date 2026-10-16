@@ -1,4 +1,4 @@
-# hcx
+# Hcx
 
 An orchestration layer for [hashcat](https://hashcat.net/hashcat/). It wraps the
 stock hashcat binary and adds the glue you end up writing by hand on every
