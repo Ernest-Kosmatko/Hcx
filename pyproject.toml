@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hcx"
+version = "0.1.0"
+description = "Orchestration layer for hashcat: job management, reporting, attack planning, hash identification and tuning."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+keywords = ["hashcat", "password-recovery", "security", "pentest", "orchestration"]
+
+[project.scripts]
+hcx = "hcx.cli:main"
+
+[tool.setuptools]
+packages = ["hcx"]
