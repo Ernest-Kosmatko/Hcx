@@ -9,6 +9,8 @@ A wrapper around [hashcat](https://hashcat.net/hashcat/) that adds job managemen
 
 > Use only on hashes you are authorized to recover.
 
+![Demo](docs/images/demo.svg)
+
 ## Features
 
 - **Jobs**: every run is recorded with its command, session, progress, outcome and log, and can be resumed or queued
